@@ -5,6 +5,7 @@
  */
 package sikasir;
 
+import sikasir.UI.*;
 /**
  *
  * @author user
@@ -16,6 +17,10 @@ public class MainClass {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        LoginGUI login = new LoginGUI();
+        login.setLocationRelativeTo(null);
+        login.setTitle("Login");
+        login.show();
     }
     
 }
